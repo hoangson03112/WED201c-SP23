@@ -1,0 +1,93 @@
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-header > .logo > img {
+  border: 0.1875em solid #0f1c3f;
+  border-radius: 50%;
+  width: 6rem;
+}
+.content-header p {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: emoji;
+  font-weight: 600;
+}
+.menu > ul > li {
+  display: inline-block;
+  padding: 1rem
+}
+.menu > ul > li a {
+  text-decoration: none;
+  color: white;
+}
+.menu > ul{
+    background-color: rgb(6, 128, 87);
+    text-align: center;
+    
+}
+.banner{
+    text-align: center;
+    display: flex;
+}
+.img1,.img2{
+    width: 50%;
+    left: 0;
+    right: 0;
+
+}
+.img-product >img{
+    width: 100%;
+    margin-top: 20px;
+    height: 90%;
+}
+.flex{
+    display: flex;
+}
+.detail-content{
+    height: 100%;
+    margin-left: 1rem;
+}
+.detail-content >h2{
+        color: palevioletred;
+}
+.detail-content li{
+    list-style-type: circle;
+    color: rgb(9, 204, 204);
+}
+.footer{
+    background-color:rgb(6, 128, 87); 
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+}
+.table1{
+  width: 25rem;
+  
+ 
+}
+h3,
+h2{
+  margin: 0;
+}
+.table-header{
+  background-color:green;
+  padding: 10px 0;
+  color: white;
+  text-align:center;
+}
+
+.header2{
+  display: flex;
+  align-items: center;
+}
+.table-body{
+  background-color: rgb(192, 190, 190);
+  line-height: 200%;
+  padding: .4rem 0;
+}
+.table-body  li{
+  width: 200px;
+  
+}
